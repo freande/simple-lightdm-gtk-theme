@@ -86,8 +86,7 @@
 
 /* the login window */
 #login_window #user_combobox,
-#login_window #username_entry,
-#login_window #password_entry {
+#login_window #entry {
   padding: 8px 0px 8px 0px;
   background-color: green;
 }
