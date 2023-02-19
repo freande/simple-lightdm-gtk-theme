@@ -79,9 +79,9 @@
 }
 
 /* input */
-#login_window #user_combobox,
+#login_window #prompt_entry,
 #login_window #entry {
-  padding: 8px 0px 8px 0px;
+  padding: 8px 0px 15px 0px;
   box-shadow: inset 0 -2px #ffffff;
 }
 
