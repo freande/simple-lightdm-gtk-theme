@@ -49,10 +49,6 @@
   background-color: rgba(30, 30, 30, 0.75);
 }
 
-#login_window {
-    width: 30vw;
-}
-
 /* the top half of the login-window, in GtkDialog terms, the content */
 #content_frame {
   padding: 15px;
