@@ -78,14 +78,12 @@
 /* the entries, one for the username, one for the password */
 #login_window .entry {
     padding: 3px 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: shade(white, 0.8);
-    border-radius: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
 
     color: white;
 
-    box-shadow: none;
     transition: all 150ms ease-out;
 }
 
