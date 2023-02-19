@@ -50,12 +50,12 @@
 }
 
 /* the top half of the login-window, in GtkDialog terms, the content */
-#content_frame {
+/* #content_frame {
   padding-bottom: 15px;
   background-color: rgba(60, 60, 60, 0.5);
   border: solid rgba(30, 30, 30, 0.40);
   border-width: 8px 8px 0px 8px;
-}
+} */
 
 #content_frame button,
 #content_frame button:hover,
@@ -66,13 +66,13 @@
 }
 
 /* the lower half of the login-window, in GtkDialog terms the buttonbox or action area */
-#buttonbox_frame {
+/* #buttonbox_frame {
   padding-top: 5px;
   padding-bottom: 0px;
   background-color: rgba(60, 60, 60, 0.5);
   border: solid rgba(30, 30, 30, 0.40);
   border-width: 0px 8px 8px 8px;
-}
+} */
 
 #buttonbox_frame button,
 #buttonbox_frame button:hover,
