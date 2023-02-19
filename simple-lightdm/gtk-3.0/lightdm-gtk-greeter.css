@@ -1,98 +1,92 @@
-@define-color bg rgba(20, 45, 50, 0.9);
-@define-color bg_darken rgba(20, 45, 50, 0.75);
-@define-color clear rgba(0, 0, 0, 0);
-@define-color bg_alt #b13041;
-@define-color fg #c0e0f0;
-
 * {
-	background-clip: padding-box;
-	-GtkToolButton-icon-spacing: 4;
-	-GtkDialog-button-spacing: 4;
-	-GtkDialog-action-area-border: 0;
-	-gtk-outline-radius: 0px;
-	outline-style: none;
-	outline-offset: 0px;
-	outline-width: 0px;
-	color: @fg;
-	font-weight: bold;
+  background-clip: padding-box;
+  -gtktoolbutton-icon-spacing: 4;
+  -gtkdialog-button-spacing: 4;
+  -gtkdialog-action-area-border: 0;
+  -gtk-outline-radius: 0px;
+  outline-style: none;
+  outline-offset: 0px;
+  outline-width: 0px;
+  color: #c0e0f0;
+  font-weight: bold;
 }
 
 #panel_window {
-  background-color: @clear;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #panel_window menubar {
-	border: solid @clear;
-	border-width: 20px 50px 20px 50px;
+  border: solid rgba(0, 0, 0, 0);
+  border-width: 20px 50px 20px 50px;
 }
 
-#panel_window menubar > menuitem, 
+#panel_window menubar > menuitem,
 #panel_window menubar > separator {
-	border: 11px solid @bg;
-	background-color:  @bg;
-	color: inherit; 
+  border: 11px solid rgba(20, 45, 50, 0.9);
+  background-color: rgba(20, 45, 50, 0.9);
+  color: inherit;
 }
 
 #panel_window menubar > menuitem {
-	background-color: @bg_alt;
-	border-color: @bg_alt;
-	color: @bg;
+  background-color: #b13041;
+  border-color: #b13041;
+  color: rgba(20, 45, 50, 0.9);
 }
 
 #panel_window menubar menuitem:disabled {
-	color: inherit; 
+  color: inherit;
 }
 
 #panel_window menubar menuitem:disabled label {
-	color: inherit; 
+  color: inherit;
 }
 
 #panel_window menubar menu > menuitem {
-	border: 8px solid @bg_darken;
-	background-color: @bg_darken;
+  border: 8px solid rgba(20, 45, 50, 0.75);
+  background-color: rgba(20, 45, 50, 0.75);
 }
 
 #content_frame {
-	padding-bottom: 15px;
-	background-color: @bg;
-	border: solid @bg_darken;
-	border-width: 8px 8px 0px 8px;
+  padding-bottom: 15px;
+  background-color: rgba(20, 45, 50, 0.9);
+  border: solid rgba(20, 45, 50, 0.75);
+  border-width: 8px 8px 0px 8px;
 }
 
-#content_frame button, 
+#content_frame button,
 #content_frame button:hover,
-#content_frame button:active, 
+#content_frame button:active,
 #content_frame button:checked,
 #content_frame button:disabled {
-	background-color: @clear;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #buttonbox_frame {
-	padding-top: 5px;
-	padding-bottom: 0px;
-	background-color: @bg;
-	border: solid @bg_darken;
-	border-width: 0px 8px 8px 8px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  background-color: rgba(20, 45, 50, 0.9);
+  border: solid rgba(20, 45, 50, 0.75);
+  border-width: 0px 8px 8px 8px;
 }
 
-#buttonbox_frame button, 
+#buttonbox_frame button,
 #buttonbox_frame button:hover,
-#buttonbox_frame button:active, 
+#buttonbox_frame button:active,
 #buttonbox_frame button:checked,
 #buttonbox_frame button:disabled {
-	background-color: @bg_alt;
-	border: 1px solid @bg_darken;
-	padding: 8px 15px;
-	min-width: 70px;
+  background-color: #b13041;
+  border: 1px solid rgba(20, 45, 50, 0.75);
+  padding: 8px 15px;
+  min-width: 70px;
 }
 
 #login_window #user_combobox,
 #login_window #username_entry,
 #login_window #password_entry {
-	padding: 8px 0px 8px 0px;
+  padding: 8px 0px 8px 0px;
 }
 
 #login_window #user_combobox menu {
-	padding: 8px;
-	background-color: @bg_darken;
+  padding: 8px;
+  background-color: rgba(20, 45, 50, 0.75);
 }
