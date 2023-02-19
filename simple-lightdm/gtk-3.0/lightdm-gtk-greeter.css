@@ -7,14 +7,16 @@
   outline-style: none;
   outline-offset: 0px;
   outline-width: 0px;
-  color: #c0e0f0;
+  color: #ffffff;
   font-weight: bold;
 }
 
+/* the panel widget at the top */
 #panel_window {
   background-color: rgba(0, 0, 0, 0);
 }
 
+/* the menubars/menus of the panel, i.e. indicators */
 #panel_window menubar {
   border: solid rgba(0, 0, 0, 0);
   border-width: 20px 50px 20px 50px;
@@ -22,15 +24,15 @@
 
 #panel_window menubar > menuitem,
 #panel_window menubar > separator {
-  border: 11px solid rgba(20, 45, 50, 0.9);
-  background-color: rgba(20, 45, 50, 0.9);
+  border: 11px solid rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   color: inherit;
 }
 
 #panel_window menubar > menuitem {
-  background-color: #b13041;
-  border-color: #b13041;
-  color: rgba(20, 45, 50, 0.9);
+  background-color: rgba(30, 30, 30, 0.75);
+  border-color: rgba(30, 30, 30, 0.75);
+  color: inherit
 }
 
 #panel_window menubar menuitem:disabled {
@@ -42,14 +44,15 @@
 }
 
 #panel_window menubar menu > menuitem {
-  border: 8px solid rgba(20, 45, 50, 0.75);
-  background-color: rgba(20, 45, 50, 0.75);
+  border: 8px solid rgba(30, 30, 30, 0.75);
+  background-color: rgba(30, 30, 30, 0.75);
 }
 
+/* the top half of the login-window, in GtkDialog terms, the content */
 #content_frame {
   padding-bottom: 15px;
-  background-color: rgba(20, 45, 50, 0.9);
-  border: solid rgba(20, 45, 50, 0.75);
+  background-color: rgba(60, 60, 60, 0.5);
+  border: solid rgba(30, 30, 30, 0.40);
   border-width: 8px 8px 0px 8px;
 }
 
@@ -61,11 +64,12 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+/* the lower half of the login-window, in GtkDialog terms the buttonbox or action area */
 #buttonbox_frame {
   padding-top: 5px;
   padding-bottom: 0px;
-  background-color: rgba(20, 45, 50, 0.9);
-  border: solid rgba(20, 45, 50, 0.75);
+  background-color: rgba(60, 60, 60, 0.5);
+  border: solid rgba(30, 30, 30, 0.40);
   border-width: 0px 8px 8px 8px;
 }
 
@@ -74,12 +78,12 @@
 #buttonbox_frame button:active,
 #buttonbox_frame button:checked,
 #buttonbox_frame button:disabled {
-  background-color: #b13041;
-  border: 1px solid rgba(20, 45, 50, 0.75);
+  background-color: rgba(30, 30, 30, 0.75);
   padding: 8px 15px;
   min-width: 70px;
 }
 
+/* the login window */
 #login_window #user_combobox,
 #login_window #username_entry,
 #login_window #password_entry {
@@ -88,5 +92,5 @@
 
 #login_window #user_combobox menu {
   padding: 8px;
-  background-color: rgba(20, 45, 50, 0.75);
+  background-color: rgba(30, 30, 30, 0.40);
 }
