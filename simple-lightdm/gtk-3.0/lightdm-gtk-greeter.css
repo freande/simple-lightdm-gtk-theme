@@ -1,8 +1,3 @@
-/*
-my indicator in lightdm-gtk-greeter.conf
-indicators = ~host;~power;~spacer;~~Arch Linux;~spacer;~session;~clock
-*/
-
 @define-color bg rgba(20, 45, 50, 0.9);
 @define-color bg_darken rgba(20, 45, 50, 0.75);
 @define-color clear rgba(0, 0, 0, 0);
